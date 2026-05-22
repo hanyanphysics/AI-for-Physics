@@ -23,7 +23,8 @@ that can make scientific work more effective.
 
 ## Current Skill Index
 
-Only sources with clear redistribution permission are copied into this
+> [!NOTE]
+> Only sources with clear redistribution permission are copied into this
 repository. Sources without a clear license are kept as links only.
 
 | Skill Name | Description | Source | Bundle Size | Inclusion Status |

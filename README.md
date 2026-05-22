@@ -25,15 +25,23 @@ that can make scientific work more effective.
 
 > [!NOTE]
 > Only sources with clear redistribution permission are copied into this
-repository. Sources without a clear license are kept as links only.
+> repository. Sources without a clear license are kept as links only.
 
-| Skill Name | Description | Source | Bundle Size | Inclusion Status |
-| --- | --- | --- | --- | --- |
-| `science-skills` | Agent skills for scientific research tasks across genomics, structural biology, cheminformatics, literature search, and more. | <https://github.com/google-deepmind/science-skills> | 37 copied skills | Copied to [`skills/third-party/google-deepmind-science-skills/`](skills/third-party/google-deepmind-science-skills/) under upstream license terms |
-| `scientific-agent-skills` | A broad collection of ready-to-use scientific and research skills. | <https://github.com/K-Dense-AI/scientific-agent-skills> | 108 copied skills; 31 skipped after license triage | Partially copied to [`skills/third-party/k-dense-scientific-agent-skills/`](skills/third-party/k-dense-scientific-agent-skills/) |
-| `arxiv-reading` | Read an arXiv paper, extract sections and equations, and build a reusable memory file. | <https://github.com/tririver/skills> | Single skill | Linked only: no license file found |
-| `cited-by` | Fetch papers that cite a target arXiv paper, filter them by topic, and optionally hand selected papers off to `arxiv-reading`. | <https://github.com/tririver/skills> | Single skill | Linked only: no license file found |
-| `figures4papers` | Python scripts for high-quality publication figures. | <https://github.com/ChenLiu-1996/figures4papers> | Script collection | Linked only: no license file found |
+| Repository | Description | Note |
+| --- | --- | --- |
+| [google-deepmind/science-skills](https://github.com/google-deepmind/science-skills) | Agent skills for scientific research tasks across genomics, structural biology, cheminformatics, literature search, and more. 37 skills copied. | Copied to [`skills/third-party/google-deepmind-science-skills/`](skills/third-party/google-deepmind-science-skills/) under upstream license terms. |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | A broad collection of ready-to-use scientific and research skills. 108 skills copied; 31 skipped after license triage. | Partially copied to [`skills/third-party/k-dense-scientific-agent-skills/`](skills/third-party/k-dense-scientific-agent-skills/). |
+| [InternScience/scp](https://github.com/InternScience/scp) | Scientific skill collection; 13 physics, math, materials, experimental-analysis, and general science skills copied. | Partially copied to [`skills/third-party/internscience-scp/`](skills/third-party/internscience-scp/). Biomedical, drug-discovery, clinical, genomics, virology, and structural-biology skills were skipped. |
+| [yorkeccak/scientific-skills](https://github.com/yorkeccak/scientific-skills) | Natural-language scientific literature search skills. 2 broad search skills copied: `arxiv-search` and `literature-search`. | Partially copied to [`skills/third-party/yorkeccak-scientific-skills/`](skills/third-party/yorkeccak-scientific-skills/). Biomedical, drug, clinical, and chemistry-specific search skills were skipped. |
+| [Weizhena/Deep-Research-skills](https://github.com/Weizhena/Deep-Research-skills) | Structured deep-research workflow collection. 5 English Codex research workflow skills copied. | Partially copied to [`skills/third-party/weizhena-deep-research-skills/`](skills/third-party/weizhena-deep-research-skills/). Chinese duplicates and non-Codex variants were skipped. |
+| [huggingface/skills](https://github.com/huggingface/skills) | Hugging Face model, dataset, paper, evaluation, and training workflows. 5 ML research skills copied. | Partially copied to [`skills/third-party/huggingface-skills/`](skills/third-party/huggingface-skills/). Broad Hub administration, app deployment, and demo skills were skipped. |
+| [InternScience/Awesome-Scientific-Skills](https://github.com/InternScience/Awesome-Scientific-Skills) | Curated index of scientific skills and related repositories. | Linked only: used as a discovery source; no skill files copied. |
+| [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | Earlier Claude-oriented K-Dense scientific skill collection with 128+ skills. | Linked only: overlaps with the newer `scientific-agent-skills` source already triaged and copied. |
+| [K-Dense-AI/claude-scientific-writer](https://github.com/K-Dense-AI/claude-scientific-writer) | Scientific writing and research workflow tool with 19+ writing-related skills. | Linked only for now: useful, but overlaps with existing writing, citation, and review skills already imported from K-Dense. |
+| [HughYau/AcademicForge](https://github.com/HughYau/AcademicForge) | Academic writing and research workflow collection. | Linked only: relevant skills overlap with existing imports, and included submodules can carry their own licenses. |
+| [tririver/skills](https://github.com/tririver/skills) | Includes `arxiv-reading`, a single skill for reading arXiv papers and building reusable notes. | Linked only: no license file found. |
+| [tririver/skills](https://github.com/tririver/skills) | Includes `cited-by`, a single skill for finding and filtering papers that cite a target arXiv paper. | Linked only: no license file found. |
+| [ChenLiu-1996/figures4papers](https://github.com/ChenLiu-1996/figures4papers) | Script collection for making high-quality scientific figures. | Linked only: no license file found. |
 
 ## Third-Party Material
 

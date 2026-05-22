@@ -19,6 +19,86 @@ sources:
     skipped_skill_count: 31
     license_notes: Repository MIT; copied skills were limited to permissive per-skill metadata or no per-skill override.
     copied: true
+  - name: internscience-scp
+    url: https://github.com/InternScience/scp
+    type: skill-bundle
+    status: copied-verbatim-partial
+    version_used: b8ce63e11885e0e85bc9c7aa890bb77ed4298540
+    date_accessed: 2026-05-22
+    location: skills/third-party/internscience-scp
+    copied_skill_count: 13
+    skipped_notes: Explicitly biomedical, drug-discovery, clinical, genomics, virology, and structural-biology skills were not copied.
+    license_notes: MIT license file; upstream README badge also refers to Apache-2.0. Copied snapshot preserves the upstream license file.
+    copied: true
+  - name: scientific-skills-yorkeccak
+    url: https://github.com/yorkeccak/scientific-skills
+    type: skills
+    status: copied-verbatim-partial
+    version_used: 20b3d503700656f847e6de873753335bf90e63e3
+    date_accessed: 2026-05-22
+    location: skills/third-party/yorkeccak-scientific-skills
+    copied_skill_count: 2
+    skipped_notes: Biomedical, drug, clinical, and chemistry-specific search skills were not copied.
+    license_notes: MIT.
+    copied: true
+  - name: deep-research-skills
+    url: https://github.com/Weizhena/Deep-Research-skills
+    type: skills
+    status: copied-verbatim-partial
+    version_used: e5479f857f484cde13fe69d2f3ce8de7af193bc7
+    date_accessed: 2026-05-22
+    location: skills/third-party/weizhena-deep-research-skills
+    copied_skill_count: 5
+    skipped_notes: Chinese duplicates and non-Codex variants were not copied.
+    license_notes: MIT.
+    copied: true
+  - name: huggingface-skills
+    url: https://github.com/huggingface/skills
+    type: skills
+    status: copied-verbatim-partial
+    version_used: 6592035ef09a74249f2d60083c6a178960d267c6
+    date_accessed: 2026-05-22
+    location: skills/third-party/huggingface-skills
+    copied_skill_count: 5
+    skipped_notes: Broad Hub administration, app deployment, and demo skills were not copied.
+    license_notes: Apache-2.0.
+    copied: true
+  - name: awesome-scientific-skills
+    url: https://github.com/InternScience/Awesome-Scientific-Skills
+    type: index
+    status: linked-only
+    version_checked: 7f34e4fd4d2487a25de2848ea3d406aa8114fd98
+    date_accessed: 2026-05-22
+    location: skills/third-party/linked-only/awesome-scientific-skills.md
+    license_notes: MIT; no skill files copied or adapted.
+    copied: false
+  - name: claude-scientific-skills
+    url: https://github.com/K-Dense-AI/claude-scientific-skills
+    type: skill-bundle
+    status: linked-only
+    version_checked: 66d1ad45ccbfe18f8665cd72d1ecb1043cd678f9
+    date_accessed: 2026-05-22
+    location: skills/third-party/linked-only/k-dense-claude-scientific-skills.md
+    license_notes: MIT; no files copied because the newer K-Dense scientific-agent-skills source is already triaged and copied.
+    copied: false
+  - name: claude-scientific-writer
+    url: https://github.com/K-Dense-AI/claude-scientific-writer
+    type: skills
+    status: linked-only
+    version_checked: 5bf6b597e2aff21de4607cf4fe9a7b46ecbd7f04
+    date_accessed: 2026-05-22
+    location: skills/third-party/linked-only/k-dense-claude-scientific-writer.md
+    license_notes: MIT; no files copied because relevant scope overlaps existing imports.
+    copied: false
+  - name: academicforge
+    url: https://github.com/HughYau/AcademicForge
+    type: skills
+    status: linked-only
+    version_checked: 410d5b29ab28a96cbb5915114df872b2cbe7d2d3
+    date_accessed: 2026-05-22
+    location: skills/third-party/linked-only/academicforge.md
+    license_notes: MIT for the forge repository; included submodules can retain their own licenses. No files copied or adapted.
+    copied: false
   - name: arxiv-reading
     url: https://github.com/tririver/skills
     type: skill

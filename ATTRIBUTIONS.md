@@ -34,6 +34,110 @@ copied, adapted, or linked by AI-for-Physics.
 - "Brain Imaging Data Structure (BIDS)" by Yaroslav Halchenko, from https://github.com/K-Dense-AI/scientific-agent-skills, licensed under CC BY 4.0. Changes: none.
 - "DepMap — Cancer Dependency Map" by Kuan-lin Huang, from https://github.com/K-Dense-AI/scientific-agent-skills, licensed under CC BY 4.0. Changes: none.
 
+## InternScience/scp
+
+- Status: copied-verbatim, partial
+- Original author: InternScience / Anthropic, PBC
+- Original repository: https://github.com/InternScience/scp
+- Original file/path: selected directories under `skills/`, plus `README.md` and `LICENSE`
+- Version used: `b8ce63e11885e0e85bc9c7aa890bb77ed4298540`
+- Original license: MIT license file; upstream README badge also refers to Apache-2.0
+- Date accessed: 2026-05-22
+- Location in this repo: `skills/third-party/internscience-scp/`
+- Changes made: none
+- Notes: `skills/third-party/internscience-scp/COPIED_SKILLS.md` records the copied list. Explicitly biomedical, drug-discovery, clinical, genomics, virology, and structural-biology skills were not copied. The copied snapshot preserves the upstream license file.
+
+## yorkeccak/scientific-skills
+
+- Status: copied-verbatim, partial
+- Original author: Valyu AI
+- Original repository: https://github.com/yorkeccak/scientific-skills
+- Original file/path: selected directories under `skills/`, plus `README.md` and `LICENSE`
+- Version used: `20b3d503700656f847e6de873753335bf90e63e3`
+- Original license: MIT
+- Date accessed: 2026-05-22
+- Location in this repo: `skills/third-party/yorkeccak-scientific-skills/`
+- Changes made: none
+- Notes: `skills/third-party/yorkeccak-scientific-skills/COPIED_SKILLS.md` records the copied list. Biomedical, drug, clinical, and chemistry-specific search skills were not copied.
+
+## Weizhena/Deep-Research-skills
+
+- Status: copied-verbatim, partial
+- Original author: Lan Zheng
+- Original repository: https://github.com/Weizhena/Deep-Research-skills
+- Original file/path: selected directories under `skills/research-codex-en/`, plus `README.md` and `LICENSE`
+- Version used: `e5479f857f484cde13fe69d2f3ce8de7af193bc7`
+- Original license: MIT
+- Date accessed: 2026-05-22
+- Location in this repo: `skills/third-party/weizhena-deep-research-skills/`
+- Changes made: none
+- Notes: `skills/third-party/weizhena-deep-research-skills/COPIED_SKILLS.md` records the copied list. Chinese duplicates and non-Codex variants were not copied.
+
+## huggingface/skills
+
+- Status: copied-verbatim, partial
+- Original author: Hugging Face
+- Original repository: https://github.com/huggingface/skills
+- Original file/path: selected directories under `skills/`, plus `README.md` and `LICENSE`
+- Version used: `6592035ef09a74249f2d60083c6a178960d267c6`
+- Original license: Apache-2.0
+- Date accessed: 2026-05-22
+- Location in this repo: `skills/third-party/huggingface-skills/`
+- Changes made: none
+- Notes: `skills/third-party/huggingface-skills/COPIED_SKILLS.md` records the copied list. Broad Hub administration, app deployment, and demo skills were not copied.
+
+## InternScience/Awesome-Scientific-Skills
+
+- Status: linked-only
+- Original author: InternScience
+- Original repository: https://github.com/InternScience/Awesome-Scientific-Skills
+- Original file/path: not applicable
+- Version used: `7f34e4fd4d2487a25de2848ea3d406aa8114fd98`
+- Original license: MIT
+- Date accessed: 2026-05-22
+- Location in this repo: `skills/third-party/linked-only/awesome-scientific-skills.md`
+- Changes made: none
+- Notes: No skill files from this repository were copied or adapted; it is used as a discovery source.
+
+## K-Dense-AI/claude-scientific-skills
+
+- Status: linked-only
+- Original author: K-Dense AI
+- Original repository: https://github.com/K-Dense-AI/claude-scientific-skills
+- Original file/path: not applicable
+- Version used: `66d1ad45ccbfe18f8665cd72d1ecb1043cd678f9`
+- Original license: MIT
+- Date accessed: 2026-05-22
+- Location in this repo: `skills/third-party/linked-only/k-dense-claude-scientific-skills.md`
+- Changes made: none
+- Notes: No text, code, examples, or files from this repository were copied or adapted. The newer `K-Dense-AI/scientific-agent-skills` source is already triaged and partially copied.
+
+## K-Dense-AI/claude-scientific-writer
+
+- Status: linked-only
+- Original author: K-Dense AI
+- Original repository: https://github.com/K-Dense-AI/claude-scientific-writer
+- Original file/path: not applicable
+- Version used: `5bf6b597e2aff21de4607cf4fe9a7b46ecbd7f04`
+- Original license: MIT
+- Date accessed: 2026-05-22
+- Location in this repo: `skills/third-party/linked-only/k-dense-claude-scientific-writer.md`
+- Changes made: none
+- Notes: No text, code, examples, or files from this repository were copied or adapted. It is linked for future review because it overlaps with writing, citation, and review skills already imported from K-Dense sources.
+
+## HughYau/AcademicForge
+
+- Status: linked-only
+- Original author: Hugh Yau
+- Original repository: https://github.com/HughYau/AcademicForge
+- Original file/path: not applicable
+- Version used: `410d5b29ab28a96cbb5915114df872b2cbe7d2d3`
+- Original license: MIT for the forge repository; included submodules can retain their own licenses
+- Date accessed: 2026-05-22
+- Location in this repo: `skills/third-party/linked-only/academicforge.md`
+- Changes made: none
+- Notes: No text, code, examples, or files from this repository were copied or adapted. Individual submodule licenses should be checked separately before any future copying.
+
 ## tririver/skills
 
 - Status: linked-only

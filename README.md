@@ -1,10 +1,12 @@
 # AI-for-Physics
 
-A curated local repository of AI tools for physics research: LLM skills, agents,
-harnesses, workflows, examples, and attribution notes.
+This is my working collection of AI tools for physics research. I use it to
+collect useful LLM skills, agents, harnesses, workflows, examples, and notes
+that can make scientific work more effective.
 
 > [!NOTE]
-> This repo is under construction. Contributions and suggestions are welcome.
+> This repo is still young and evolving. Suggestions, issues, and contributions
+> are very welcome.
 
 ## Repository Map
 
@@ -28,13 +30,3 @@ harnesses, workflows, examples, and attribution notes.
 | `arxiv-reading` | Read an arXiv paper, extract sections and equations, and build a reusable memory file. | <https://github.com/tririver/skills> |
 | `cited-by` | Fetch papers that cite a target arXiv paper, filter them by topic, and optionally hand selected papers off to `arxiv-reading`. | <https://github.com/tririver/skills> |
 | `figures4papers` | Python scripts for high-quality publication figures. | <https://github.com/ChenLiu-1996/figures4papers> |
-
-## Curation Principles
-
-- Prefer clear, reusable skills that help with physics research workflows.
-- Keep copied third-party material isolated under `skills/third-party/`.
-- Record upstream source, license, commit hash, and local modifications before
-  adding copied files.
-- Prefer links or submodules when licensing is unclear.
-- Keep first-party skills under `skills/first-party/`.
-- Add examples or harnesses for any skill that should be relied on repeatedly.

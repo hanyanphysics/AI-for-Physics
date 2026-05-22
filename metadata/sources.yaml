@@ -1,0 +1,31 @@
+sources:
+  - name: science-skills
+    url: https://github.com/google-deepmind/science-skills
+    type: skill-bundle
+    status: linked
+    license_notes: Apache-2.0 for software; CC-BY-4.0 for other materials; check upstream third-party terms.
+    copied: false
+  - name: scientific-agent-skills
+    url: https://github.com/K-Dense-AI/scientific-agent-skills
+    type: skill-bundle
+    status: linked
+    license_notes: Repository MIT; individual skills may specify their own license.
+    copied: false
+  - name: arxiv-reading
+    url: https://github.com/tririver/skills
+    type: skill
+    status: linked
+    license_notes: Check upstream license before copying.
+    copied: false
+  - name: cited-by
+    url: https://github.com/tririver/skills
+    type: skill
+    status: linked
+    license_notes: Check upstream license before copying.
+    copied: false
+  - name: figures4papers
+    url: https://github.com/ChenLiu-1996/figures4papers
+    type: scripts
+    status: linked
+    license_notes: Check upstream license before copying.
+    copied: false

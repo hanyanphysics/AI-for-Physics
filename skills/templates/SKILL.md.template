@@ -1,0 +1,23 @@
+---
+name: skill-name
+description: Short description of when an agent should use this skill.
+license: TBD
+source: first-party
+---
+
+# Skill Name
+
+Use this skill when ...
+
+## Workflow
+
+1. Inspect the relevant inputs.
+2. Run or apply the documented method.
+3. Verify the result.
+4. Report limitations and next steps.
+
+## Files
+
+- `scripts/`: helper scripts, if needed.
+- `references/`: compact references, formulas, or API notes.
+- `examples/`: minimal examples.

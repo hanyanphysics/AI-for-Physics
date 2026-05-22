@@ -1,0 +1,15 @@
+name: skill-name
+description: Short description of the skill.
+domain:
+  - physics
+  - ai
+source:
+  type: first-party
+  url:
+  commit:
+license: TBD
+maintainer:
+status: draft
+tags: []
+dependencies: []
+notes:

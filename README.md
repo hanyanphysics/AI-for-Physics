@@ -21,6 +21,32 @@ that can make scientific work more effective.
 | [`docs/`](docs/) | Design notes, licensing guidance, curation criteria, and project documentation. |
 | [`metadata/`](metadata/) | Machine-readable indexes, manifests, tags, and source metadata. |
 
+## Using The Skills
+
+Most copied skills live under [`skills/third-party/`](skills/third-party/).
+Each skill is usually a folder containing a `SKILL.md` file, and sometimes
+supporting scripts, examples, or reference notes.
+
+To use a copied skill with an agent that supports local skills:
+
+1. Find the skill folder you want to use.
+2. Read its `SKILL.md` and any nearby `README.md` or `COPIED_SKILLS.md`.
+3. Copy the whole skill folder into your agent's local skills directory, keeping
+   any `scripts/`, `references/`, or example files with it.
+4. Restart or reload your agent if it does not discover new skills
+   automatically.
+5. Ask the agent to use the skill by name, or describe the task naturally.
+
+For example, a Codex user can copy selected folders into `~/.codex/skills/`;
+a Claude Code user can copy selected folders into `~/.claude/skills/`. Some
+upstream bundles also document their own installer commands, so check the local
+bundle README before installing a larger collection.
+
+Linked-only entries are different: they are pointers to useful external
+repositories, but this repo does not copy their files. To use a linked-only
+skill, visit the upstream repository and follow that project's own license and
+installation instructions.
+
 ## Current Skill Index
 
 > [!NOTE]

@@ -1,8 +1,12 @@
 # First-Party Skills
 
-Put skills authored for this repository here.
+This section is for original skills created for AI-for-Physics.
 
-Recommended structure:
+These skills should be especially useful for physics research: reading papers,
+checking derivations, planning simulations, generating figures, organizing
+research notes, or turning scientific workflows into repeatable agent actions.
+
+## Expected Shape
 
 ```text
 skill-name/
@@ -14,4 +18,5 @@ skill-name/
   examples/
 ```
 
-Use this area for physics-specific skills that are original to this repo.
+Each skill should explain what problem it solves, what inputs it expects, and
+how a user can tell whether it worked.

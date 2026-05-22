@@ -1,9 +1,9 @@
 # Curation Policy
 
-The goal of this repository is to collect useful AI capabilities for physics
-research while keeping provenance, quality, and reproducibility clear.
+AI-for-Physics aims to collect useful AI capabilities for physics research while
+keeping provenance, quality, and reproducibility clear.
 
-## Include
+## What Belongs Here
 
 - Skills useful for physics, scientific computing, literature review, data
   analysis, simulations, figures, and research writing.
@@ -11,14 +11,14 @@ research while keeping provenance, quality, and reproducibility clear.
 - Harnesses that make behavior testable.
 - Workflows that can be reused across projects.
 
-## Avoid
+## What Does Not Belong Here
 
 - Unlicensed third-party copies.
 - Large datasets or generated outputs without a clear purpose.
 - Secrets, API keys, private notes, or credentials.
 - Skills that require unsafe tool access without explicit documentation.
 
-## Quality Checklist
+## Quality Signals
 
 - Purpose is clear.
 - Source and license are recorded.

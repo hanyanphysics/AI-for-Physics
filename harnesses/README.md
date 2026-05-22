@@ -1,9 +1,13 @@
 # Harnesses
 
-This directory stores tests, benchmarks, and reproducibility checks for skills
-and agents.
+This directory is for checking whether skills, agents, and workflows behave as
+expected.
 
-Examples:
+Harnesses can be simple smoke tests or more formal benchmark tasks. The goal is
+to make useful AI behavior easier to reproduce instead of relying only on
+one-off demonstrations.
+
+## Examples
 
 - prompt regression tests,
 - known-answer physics tasks,
@@ -11,5 +15,5 @@ Examples:
 - benchmark task sets,
 - evaluation rubrics.
 
-Harnesses should make it clear what is being measured and what counts as a
-passing result.
+Each harness should explain what it measures, how to run it, and what counts as
+a good result.

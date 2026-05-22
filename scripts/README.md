@@ -1,8 +1,11 @@
 # Scripts
 
-This directory stores repository maintenance and utility scripts.
+This directory contains utility scripts that support the project.
 
-Examples:
+Some scripts may help users run examples or validate metadata. Others may help
+contributors keep the repository organized.
+
+## Possible Scripts
 
 - index generation,
 - metadata validation,
@@ -10,4 +13,5 @@ Examples:
 - skill conversion helpers,
 - benchmark runners.
 
-Keep scripts documented and avoid hard-coded local paths when possible.
+Each script should include enough documentation to explain what it does, what it
+expects as input, and whether it changes files.

@@ -1,24 +1,35 @@
 # Skills
 
-This directory stores agent skills and skill bundles for AI-assisted physics
-research.
+This is the main home for reusable AI-agent skills. A skill is a compact set of
+instructions, scripts, references, and examples that helps an agent do a
+specific research task more reliably.
 
-## Layout
+## What You Will Find
 
 | Path | Purpose |
 | --- | --- |
-| [`first-party/`](first-party/) | Skills authored in this repository. |
-| [`third-party/`](third-party/) | Copied or adapted skills from external repositories. |
-| [`templates/`](templates/) | Templates for new skill directories and metadata. |
+| [`first-party/`](first-party/) | Original skills written for this project. |
+| [`third-party/`](third-party/) | External skills included with attribution and license notes. |
+| [`templates/`](templates/) | Starting points for creating new skills in a consistent format. |
 
-## Adding a Skill
+## How To Use This Directory
 
-Each skill should have:
+Browse by topic, read the skill's `README.md` first, then inspect its
+`SKILL.md` for the instructions used by compatible agents. When a skill includes
+scripts, examples, or reference files, that skill's README explains how they fit
+together.
 
-- `SKILL.md` with the actual agent instructions.
-- `README.md` with human-facing purpose, usage, and examples.
-- `metadata.yaml` or equivalent structured metadata when useful.
-- `LICENSE` or attribution notes when copied from another source.
+## Typical Skill Layout
 
-Third-party skills must include source, license, upstream commit, and local
-modification notes before they are committed.
+```text
+skill-name/
+  README.md
+  SKILL.md
+  metadata.yaml
+  scripts/
+  references/
+  examples/
+```
+
+The `README.md` explains the skill for people. The `SKILL.md` provides the
+structured instructions consumed by compatible AI agents.

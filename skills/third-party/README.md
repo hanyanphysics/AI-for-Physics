@@ -1,15 +1,21 @@
 # Third-Party Skills
 
-Put copied or adapted external skills here only when the upstream license allows
-redistribution.
+This section is for external skills that are included directly in the
+AI-for-Physics repository.
 
-For each third-party skill or bundle, include:
+Third-party skills are useful when they are well maintained, clearly licensed,
+and relevant to scientific or physics workflows. Each copied or adapted skill
+should make its provenance easy to check.
 
-- Upstream repository URL.
-- Upstream commit hash or release tag.
-- License name and copied license text when required.
-- Copyright holder.
-- Notes on local modifications.
+## What To Expect
 
-If the upstream repository has no clear license, link to it from the root README
-instead of copying its contents.
+Each third-party skill should include:
+
+- the upstream repository URL,
+- the upstream commit hash or release tag,
+- the license name and required license text,
+- the copyright holder,
+- a short summary of local modifications, if any.
+
+Sources without a clear redistribution license are linked from the project index
+instead of copied here.

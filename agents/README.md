@@ -1,8 +1,12 @@
 # Agents
 
-This directory stores reusable agent definitions and orchestration notes.
+This directory collects reusable agent designs for physics research.
 
-Examples:
+Agents are higher-level roles or workflows that may combine multiple skills,
+tools, and review steps. They are useful when a task needs more structure than a
+single skill.
+
+## Possible Agents
 
 - research assistant agents,
 - literature review agents,
@@ -10,4 +14,5 @@ Examples:
 - simulation/debugging agents,
 - reviewer agents for paper drafts or numerical work.
 
-Keep tool permissions, expected inputs, outputs, and failure modes explicit.
+Each agent should describe the research problem it supports, the skills or tools
+it uses, expected inputs and outputs, and any important limitations.

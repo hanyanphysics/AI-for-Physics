@@ -1,10 +1,9 @@
 # Documentation
 
-This directory stores project documentation, design notes, curation policy, and
-licensing guidance.
+This directory contains longer-form documentation for users and contributors.
 
-Start here:
+## Start Here
 
 - [`licensing.md`](licensing.md)
 - [`curation.md`](curation.md)
-- [`workflow.md`](workflow.md)
+- [`using-this-repository.md`](using-this-repository.md)

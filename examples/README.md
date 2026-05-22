@@ -1,6 +1,6 @@
 # Examples
 
-This directory stores small runnable examples that demonstrate how skills,
-agents, harnesses, or workflows are intended to be used.
+This directory contains small examples that show the repo in action.
 
-Prefer minimal examples that can be checked quickly and reused as smoke tests.
+Good examples are short, concrete, and easy to inspect. They should help a user
+understand how a skill, agent, harness, script, or workflow is meant to be used.

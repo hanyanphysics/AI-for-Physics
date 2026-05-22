@@ -1,6 +1,6 @@
 # Third-Party Sources
 
-This file tracks external sources referenced by or copied into this repository.
+This file tracks external sources referenced by or copied into AI-for-Physics.
 
 No third-party files have been copied into this repository yet.
 
@@ -11,7 +11,7 @@ No third-party files have been copied into this repository yet.
 | <https://github.com/tririver/skills> | Skills | Linked only | Check upstream license before copying. |
 | <https://github.com/ChenLiu-1996/figures4papers> | Scripts | Linked only | Check upstream license before copying. |
 
-When copying or adapting third-party material, add:
+For copied or adapted third-party material, this file should record:
 
 - upstream URL,
 - upstream commit hash or release tag,

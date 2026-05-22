@@ -1,9 +1,11 @@
 # Workflows
 
-This directory stores end-to-end research workflows assembled from skills,
-agents, scripts, and harnesses.
+This directory collects end-to-end research workflows.
 
-Examples:
+A workflow connects multiple pieces of the repo into a practical research
+process: skills, agents, scripts, examples, and verification checks.
+
+## Example Workflow Topics
 
 - arXiv paper triage,
 - derivation checking,
@@ -12,5 +14,5 @@ Examples:
 - literature-to-code pipelines,
 - paper reproduction workflows.
 
-Each workflow should document inputs, outputs, required skills, and verification
-steps.
+Each workflow should help a user understand what it does, when to use it, what
+inputs it needs, what it produces, and how to check the result.

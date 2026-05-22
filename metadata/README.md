@@ -1,6 +1,7 @@
 # Metadata
 
-This directory stores machine-readable indexes and manifests.
+This directory contains machine-readable information about the repository.
 
-The initial index is [`sources.yaml`](sources.yaml), which tracks known external
-skill sources before any content is copied into this repository.
+The first index is [`sources.yaml`](sources.yaml). It tracks external skill
+sources that are referenced by the project, including whether they are linked
+only or copied into the repository.

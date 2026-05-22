@@ -1,20 +1,30 @@
 # Contributing
 
-This repository collects AI skills, agents, harnesses, and workflows for physics
-research.
+Thanks for helping improve AI-for-Physics. This project is meant to become a
+useful, well-attributed collection of AI tools for physics research.
 
-## Before Adding Content
+## What Helps
 
-- Put first-party skills in `skills/first-party/`.
-- Put copied or adapted external skills in `skills/third-party/`.
-- Add attribution to `THIRD_PARTY.md` for copied or adapted material.
-- Do not copy content from repositories without a clear license.
-- Do not commit secrets, API keys, private data, or large generated outputs.
+- New physics-relevant skills.
+- Clear examples showing how a skill or workflow is used.
+- Harnesses that make behavior easier to test.
+- Documentation that makes source, license, dependencies, or limitations clear.
+- Careful links to useful external projects.
 
-## Suggested Pull Request Checklist
+## Before Adding Third-Party Material
 
-- Purpose is documented.
-- Source and license are documented.
+Only copy external files when the upstream license allows redistribution. For
+copied or adapted material, document the source in `THIRD_PARTY.md` and update
+`metadata/sources.yaml` when appropriate.
+
+When the license is unclear, link to the upstream project instead of copying its
+contents.
+
+## Review Checklist
+
+- The purpose is clear to a new reader.
+- Source and license information are documented.
 - Dependencies are documented.
-- Example or verification path is included when relevant.
-- Repo metadata is updated if a new external source is added.
+- An example or verification path is included when relevant.
+- No secrets, API keys, private data, or unnecessary generated outputs are
+  included.

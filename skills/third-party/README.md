@@ -7,6 +7,14 @@ Third-party skills are useful when they are well maintained, clearly licensed,
 and relevant to scientific or physics workflows. Each copied or adapted skill
 should make its provenance easy to check.
 
+## Local Sources
+
+| Path | Purpose |
+| --- | --- |
+| [`google-deepmind-science-skills/`](google-deepmind-science-skills/) | Copied Google DeepMind Science Skills bundle. |
+| [`k-dense-scientific-agent-skills/`](k-dense-scientific-agent-skills/) | Permissively triaged subset of K-Dense Scientific Agent Skills. |
+| [`linked-only/`](linked-only/) | External sources that are useful but not copied into this repository. |
+
 ## What To Expect
 
 Each third-party skill should include:

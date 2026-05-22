@@ -1,0 +1,148 @@
+# Copied K-Dense Skills
+
+This file records which skills were copied from `K-Dense-AI/scientific-agent-skills` and which were left link-only/omitted during license triage.
+
+## Copied
+
+- `adaptyv` — Repository MIT license; no per-skill license override found.
+- `aeon` — BSD-3-Clause license
+- `anndata` — BSD-3-Clause license
+- `arboreto` — BSD-3-Clause license
+- `astropy` — BSD-3-Clause license
+- `autoskill` — MIT license
+- `bgpt-paper-search` — MIT
+- `bids` — https://creativecommons.org/licenses/by/4.0/
+- `cirq` — Apache-2.0 license
+- `citation-management` — MIT License
+- `clinical-decision-support` — MIT License
+- `clinical-reports` — MIT License
+- `consciousness-council` — MIT license
+- `dask` — BSD-3-Clause license
+- `database-lookup` — Repository MIT license; no per-skill license override found.
+- `datamol` — Apache-2.0 license
+- `deepchem` — MIT license
+- `deeptools` — BSD license
+- `depmap` — CC-BY-4.0
+- `dhdna-profiler` — MIT license
+- `diffdock` — MIT license
+- `esm` — MIT license
+- `exa-search` — MIT
+- `exploratory-data-analysis` — MIT license
+- `flowio` — BSD-3-Clause license
+- `generate-image` — MIT license
+- `geniml` — BSD-2-Clause license
+- `geomaster` — MIT License
+- `geopandas` — BSD-3-Clause license
+- `get-available-resources` — MIT license
+- `gget` — BSD-2-Clause license
+- `ginkgo-cloud-lab` — Repository MIT license; no per-skill license override found.
+- `histolab` — Apache-2.0 license
+- `hugging-science` — Repository MIT license; no per-skill license override found.
+- `hypogenic` — MIT license
+- `hypothesis-generation` — MIT license
+- `infographics` — Repository MIT license; no per-skill license override found.
+- `iso-13485-certification` — MIT license
+- `lamindb` — Apache-2.0 license
+- `latex-posters` — Repository MIT license; no per-skill license override found.
+- `literature-review` — MIT license
+- `markdown-mermaid-writing` — Apache-2.0
+- `market-research-reports` — MIT license
+- `markitdown` — MIT license
+- `matchms` — Apache-2.0 license
+- `medchem` — Apache-2.0 license
+- `modal` — Apache-2.0
+- `molecular-dynamics` — MIT
+- `molfeat` — Apache-2.0 license
+- `networkx` — 3-clause BSD license
+- `neurokit2` — MIT license
+- `neuropixels-analysis` — MIT license
+- `open-notebook` — MIT
+- `optimize-for-gpu` — Repository MIT license; no per-skill license override found.
+- `pacsomatic` — MIT
+- `paper-lookup` — Repository MIT license; no per-skill license override found.
+- `paperzilla` — MIT
+- `parallel-web` — Repository MIT license; no per-skill license override found.
+- `peer-review` — MIT license
+- `pennylane` — Apache-2.0 license
+- `pptx-posters` — MIT license
+- `pufferlib` — MIT license
+- `pydeseq2` — MIT license
+- `pyhealth` — Repository MIT license; no per-skill license override found.
+- `pylabrobot` — MIT license
+- `pymatgen` — MIT license
+- `pymc` — Apache License, Version 2.0
+- `pymoo` — Apache-2.0 license
+- `pyopenms` — 3 clause BSD license
+- `pysam` — MIT license
+- `pytdc` — MIT license
+- `pytorch-lightning` — Apache-2.0 license
+- `pyzotero` — MIT License
+- `qiskit` — Apache-2.0 license
+- `qutip` — BSD-3-Clause license
+- `rdkit` — BSD-3-Clause license
+- `research-grants` — MIT license
+- `research-lookup` — MIT license
+- `scanpy` — BSD-3-Clause
+- `scholar-evaluation` — MIT license
+- `scientific-brainstorming` — MIT license
+- `scientific-critical-thinking` — MIT license
+- `scientific-schematics` — MIT license
+- `scientific-slides` — MIT license
+- `scientific-visualization` — MIT license
+- `scientific-writing` — MIT license
+- `scikit-bio` — BSD-3-Clause license
+- `scikit-learn` — BSD-3-Clause license
+- `scvelo` — BSD-3-Clause
+- `scvi-tools` — BSD-3-Clause license
+- `seaborn` — BSD-3-Clause license
+- `shap` — MIT license
+- `simpy` — MIT license
+- `stable-baselines3` — MIT license
+- `statistical-analysis` — MIT license
+- `statsmodels` — BSD-3-Clause license
+- `tiledbvcf` — MIT license
+- `timesfm-forecasting` — Apache-2.0 license
+- `torch-geometric` — Repository MIT license; no per-skill license override found.
+- `torchdrug` — Apache-2.0 license
+- `transformers` — Apache-2.0 license
+- `treatment-plans` — MIT license
+- `umap-learn` — BSD-3-Clause license
+- `usfiscaldata` — MIT
+- `vaex` — MIT license
+- `venue-templates` — MIT license
+- `what-if-oracle` — MIT license
+- `zarr-python` — MIT license
+
+## Not Copied
+
+- `benchling-integration` — Unknown; explicitly unclear, copyleft, proprietary, or restricted
+- `biopython` — Unknown; explicitly unclear, copyleft, proprietary, or restricted
+- `bioservices` — GPLv3 license; explicitly unclear, copyleft, proprietary, or restricted
+- `cellxgene-census` — Unknown; explicitly unclear, copyleft, proprietary, or restricted
+- `cobrapy` — GPL-2.0 license; explicitly unclear, copyleft, proprietary, or restricted
+- `dnanexus-integration` — Unknown; explicitly unclear, copyleft, proprietary, or restricted
+- `docx` — Proprietary. LICENSE.txt has complete terms; explicitly unclear, copyleft, proprietary, or restricted
+- `etetoolkit` — GPL-3.0 license; explicitly unclear, copyleft, proprietary, or restricted
+- `fluidsim` — CeCILL FREE SOFTWARE LICENSE AGREEMENT; explicitly unclear, copyleft, proprietary, or restricted
+- `glycoengineering` — Unknown; explicitly unclear, copyleft, proprietary, or restricted
+- `gtars` — Unknown; explicitly unclear, copyleft, proprietary, or restricted
+- `imaging-data-commons` — This skill is provided under the MIT License. IDC data itself has individual licensing (mostly CC-BY, some CC-NC) that must be respected when using the data.; explicitly unclear, copyleft, proprietary, or restricted
+- `labarchive-integration` — Unknown; explicitly unclear, copyleft, proprietary, or restricted
+- `latchbio-integration` — Unknown; explicitly unclear, copyleft, proprietary, or restricted
+- `matlab` — For MATLAB (https://www.mathworks.com/pricing-licensing.html) and for Octave (GNU General Public License version 3); license metadata not clearly permissive under project policy
+- `matplotlib` — https://github.com/matplotlib/matplotlib/tree/main/LICENSE; license metadata not clearly permissive under project policy
+- `omero-integration` — Unknown; explicitly unclear, copyleft, proprietary, or restricted
+- `opentrons-integration` — Unknown; explicitly unclear, copyleft, proprietary, or restricted
+- `pathml` — GPL-2.0 license; explicitly unclear, copyleft, proprietary, or restricted
+- `pdf` — Proprietary. LICENSE.txt has complete terms; explicitly unclear, copyleft, proprietary, or restricted
+- `phylogenetics` — Unknown; explicitly unclear, copyleft, proprietary, or restricted
+- `polars` — https://github.com/pola-rs/polars/blob/main/LICENSE; license metadata not clearly permissive under project policy
+- `polars-bio` — https://github.com/biodatageeks/polars-bio/blob/main/LICENSE; license metadata not clearly permissive under project policy
+- `pptx` — Proprietary. LICENSE.txt has complete terms; explicitly unclear, copyleft, proprietary, or restricted
+- `primekg` — Unknown; explicitly unclear, copyleft, proprietary, or restricted
+- `protocolsio-integration` — Unknown; explicitly unclear, copyleft, proprietary, or restricted
+- `pydicom` — https://github.com/pydicom/pydicom/blob/main/LICENSE; license metadata not clearly permissive under project policy
+- `rowan` — Proprietary (API key required); explicitly unclear, copyleft, proprietary, or restricted
+- `scikit-survival` — GPL-3.0 license; explicitly unclear, copyleft, proprietary, or restricted
+- `sympy` — https://github.com/sympy/sympy/blob/master/LICENSE; license metadata not clearly permissive under project policy
+- `xlsx` — Proprietary. LICENSE.txt has complete terms; explicitly unclear, copyleft, proprietary, or restricted

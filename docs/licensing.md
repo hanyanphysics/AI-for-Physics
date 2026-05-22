@@ -9,7 +9,7 @@ Before copying a skill into this repository:
 
 1. Confirm the upstream license allows redistribution.
 2. Copy required license files or notices.
-3. Record the upstream URL and commit hash.
+3. Record the upstream URL and commit hash in `ATTRIBUTIONS.md`.
 4. Preserve copyright headers.
 5. Mark any local modifications.
 
@@ -37,3 +37,6 @@ ask the author for permission.
   skills may specify their own license in `SKILL.md`.
 - Repositories without a visible license should remain links until permission is
   clarified.
+
+Current copied and linked sources are recorded in `ATTRIBUTIONS.md`,
+`THIRD_PARTY.md`, and `NOTICE.md`.

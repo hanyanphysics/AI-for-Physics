@@ -2,30 +2,47 @@ sources:
   - name: science-skills
     url: https://github.com/google-deepmind/science-skills
     type: skill-bundle
-    status: linked
+    status: copied-verbatim
+    version_used: 0b72c64f63bc5ddf0e5fe96b8c3eb02e10fd5ef8
+    date_accessed: 2026-05-22
+    location: skills/third-party/google-deepmind-science-skills
     license_notes: Apache-2.0 for software; CC-BY-4.0 for other materials; check upstream third-party terms.
-    copied: false
+    copied: true
   - name: scientific-agent-skills
     url: https://github.com/K-Dense-AI/scientific-agent-skills
     type: skill-bundle
-    status: linked
-    license_notes: Repository MIT; individual skills may specify their own license.
-    copied: false
+    status: copied-verbatim-partial
+    version_used: 66d1ad45ccbfe18f8665cd72d1ecb1043cd678f9
+    date_accessed: 2026-05-22
+    location: skills/third-party/k-dense-scientific-agent-skills
+    copied_skill_count: 108
+    skipped_skill_count: 31
+    license_notes: Repository MIT; copied skills were limited to permissive per-skill metadata or no per-skill override.
+    copied: true
   - name: arxiv-reading
     url: https://github.com/tririver/skills
     type: skill
-    status: linked
-    license_notes: Check upstream license before copying.
+    status: linked-only
+    version_checked: 4656bcf078896ac9e76c32b0ba25951c1298ccd8
+    date_accessed: 2026-05-22
+    location: skills/third-party/linked-only/tririver-arxiv-reading.md
+    license_notes: No license file found as of 2026-05-22; no files copied or adapted.
     copied: false
   - name: cited-by
     url: https://github.com/tririver/skills
     type: skill
-    status: linked
-    license_notes: Check upstream license before copying.
+    status: linked-only
+    version_checked: 4656bcf078896ac9e76c32b0ba25951c1298ccd8
+    date_accessed: 2026-05-22
+    location: skills/third-party/linked-only/tririver-cited-by.md
+    license_notes: No license file found as of 2026-05-22; no files copied or adapted.
     copied: false
   - name: figures4papers
     url: https://github.com/ChenLiu-1996/figures4papers
     type: scripts
-    status: linked
-    license_notes: Check upstream license before copying.
+    status: linked-only
+    version_checked: ebebf0e6d96b9ec9c03d497356f7081c1801933a
+    date_accessed: 2026-05-22
+    location: skills/third-party/linked-only/figures4papers.md
+    license_notes: No license file found as of 2026-05-22; no files copied or adapted.
     copied: false

@@ -10,8 +10,9 @@ metadata.
 - Browse [`skills/`](../skills/) for reusable agent skills.
 - Browse [`workflows/`](../workflows/) for end-to-end research processes.
 - Browse [`examples/`](../examples/) for small demonstrations.
-- Check [`THIRD_PARTY.md`](../THIRD_PARTY.md) before reusing copied or adapted
-  external material.
+- Check [`ATTRIBUTIONS.md`](../ATTRIBUTIONS.md), [`THIRD_PARTY.md`](../THIRD_PARTY.md),
+  and [`NOTICE.md`](../NOTICE.md) before reusing copied or adapted external
+  material.
 
 ## For Contributors
 

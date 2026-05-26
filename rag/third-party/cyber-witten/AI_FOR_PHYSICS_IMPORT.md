@@ -16,9 +16,12 @@ Witten's papers.
 
 ## Scope Notes
 
-The copied repository ships code only. It does not include the local `data/`
-artifacts described by upstream, such as downloaded papers, parsed chunks,
-FAISS indexes, or private/manual PDFs.
+The copied repository ships code only. It does not include the generated Witten
+paper list, the RAG database, or local `data/` artifacts described by upstream,
+such as `data/metadata/papers.jsonl`, downloaded papers, parsed chunks, FAISS
+indexes, lookup tables, or private/manual PDFs. Those artifacts must be rebuilt
+locally from the pipeline scripts before the system can answer questions
+against a corpus.
 
 Upstream documents separate provenance for corpus data:
 

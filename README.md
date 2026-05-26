@@ -73,7 +73,7 @@ installation instructions.
 
 | Repository | Description |
 | --- | --- |
-| [xingyang-yu/cyber-witten](https://github.com/xingyang-yu/cyber-witten) | Retrieval-augmented question-answering system grounded in Edward Witten's papers, useful as a physics-specific RAG reference implementation.<br>Code copied locally to [`rag/third-party/cyber-witten/`](rag/third-party/cyber-witten/) under MIT license terms; data artifacts are not copied. |
+| [xingyang-yu/cyber-witten](https://github.com/xingyang-yu/cyber-witten) | Retrieval-augmented question-answering system grounded in Edward Witten's papers, useful as a physics-specific RAG reference implementation.<br>Code copied locally to [`rag/third-party/cyber-witten/`](rag/third-party/cyber-witten/) under MIT license terms. The generated corpus is not included: upstream ships code only, not the Witten paper list, paper metadata, chunks, FAISS index, downloaded sources, or PDFs. These artifacts must be rebuilt locally because the underlying paper content has separate copyright and redistribution constraints. |
 
 ## Third-Party Material
 

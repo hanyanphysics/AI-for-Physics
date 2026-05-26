@@ -44,3 +44,10 @@ notices are recorded below.
 - License: Apache-2.0
 - Notice: No separate upstream NOTICE file found in the copied source snapshot.
 - Local path: `skills/third-party/huggingface-skills/`
+
+## xingyang-yu/cyber-witten
+
+- Source: https://github.com/xingyang-yu/cyber-witten
+- License: MIT
+- Notice: Copyright (c) 2026 Xingyang Yu
+- Local path: `rag/third-party/cyber-witten/`

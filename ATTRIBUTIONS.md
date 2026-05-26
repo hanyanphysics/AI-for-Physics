@@ -86,6 +86,19 @@ copied, adapted, or linked by AI-for-Physics.
 - Changes made: none
 - Notes: `skills/third-party/huggingface-skills/COPIED_SKILLS.md` records the copied list. Broad Hub administration, app deployment, and demo skills were not copied.
 
+## xingyang-yu/cyber-witten
+
+- Status: copied-verbatim
+- Original author: Xingyang Yu
+- Original repository: https://github.com/xingyang-yu/cyber-witten
+- Original file/path: repository code files, `README.md`, `LICENSE`, `.env.example`, `.gitignore`, and `scripts/`
+- Version used: `cde681d1c027f26e8a153b6ba35fe6a3311e8667`
+- Original license: MIT
+- Date accessed: 2026-05-26
+- Location in this repo: `rag/third-party/cyber-witten/`
+- Changes made: removed upstream `.git/` metadata only; source files are otherwise copied verbatim
+- Notes: Copied code only. No generated corpus data, downloaded papers, parsed chunks, FAISS indexes, or private/manual PDFs are included. Upstream README documents separate redistribution constraints for arXiv and INSPIRE/journal content.
+
 ## InternScience/Awesome-Scientific-Skills
 
 - Status: linked-only

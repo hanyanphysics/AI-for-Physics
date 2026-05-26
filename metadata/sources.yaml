@@ -63,6 +63,15 @@ sources:
     skipped_notes: Broad Hub administration, app deployment, and demo skills were not copied.
     license_notes: Apache-2.0.
     copied: true
+  - name: cyber-witten
+    url: https://github.com/xingyang-yu/cyber-witten
+    type: rag-codebase
+    status: copied-verbatim
+    version_used: cde681d1c027f26e8a153b6ba35fe6a3311e8667
+    date_accessed: 2026-05-26
+    location: rag/third-party/cyber-witten
+    license_notes: MIT for code. Upstream corpus data is not copied; arXiv and INSPIRE/journal content retain separate source licenses and redistribution constraints.
+    copied: true
   - name: awesome-scientific-skills
     url: https://github.com/InternScience/Awesome-Scientific-Skills
     type: index

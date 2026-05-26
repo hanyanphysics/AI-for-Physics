@@ -1,8 +1,8 @@
 # AI-for-Physics
 
 This is my working collection of AI tools for physics research. I use it to
-collect useful LLM skills, agents, harnesses, workflows, examples, and notes
-that can make scientific work more effective.
+collect useful LLM skills, RAG systems, agents, harnesses, workflows, examples,
+and notes that can make scientific work more effective.
 
 > [!NOTE]
 > This repo is still young and evolving. Suggestions, issues, and contributions
@@ -13,6 +13,7 @@ that can make scientific work more effective.
 | Path | Purpose |
 | --- | --- |
 | [`skills/`](skills/) | Agent skills and skill bundles for scientific and physics workflows. |
+| [`rag/`](rag/) | Retrieval-augmented generation systems and reference implementations. |
 | [`agents/`](agents/) | Agent definitions, role prompts, tool-use policies, and orchestration notes. |
 | [`harnesses/`](harnesses/) | Evaluation harnesses, benchmarks, test tasks, and reproducibility checks. |
 | [`workflows/`](workflows/) | End-to-end research workflows assembled from skills, agents, and scripts. |
@@ -67,6 +68,12 @@ installation instructions.
 | [HughYau/AcademicForge](https://github.com/HughYau/AcademicForge) | Academic writing and research workflow collection.<br>Linked only because relevant skills overlap with existing imports, and included submodules can carry their own licenses. |
 | [tririver/skills](https://github.com/tririver/skills) | Includes `arxiv-reading` for reading arXiv papers into reusable notes and `cited-by` for finding papers that cite a target arXiv paper.<br>Linked only: no license file found, so no skill files copied locally. |
 | [ChenLiu-1996/figures4papers](https://github.com/ChenLiu-1996/figures4papers) | Script collection for making high-quality scientific figures.<br>Linked only: no license file found, so no files copied locally. |
+
+## Current RAG Index
+
+| Repository | Description |
+| --- | --- |
+| [xingyang-yu/cyber-witten](https://github.com/xingyang-yu/cyber-witten) | Retrieval-augmented question-answering system grounded in Edward Witten's papers, useful as a physics-specific RAG reference implementation.<br>Code copied locally to [`rag/third-party/cyber-witten/`](rag/third-party/cyber-witten/) under MIT license terms; data artifacts are not copied. |
 
 ## Third-Party Material
 

@@ -12,6 +12,7 @@ Detailed attribution records are in [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md).
 | <https://github.com/yorkeccak/scientific-skills> | Skills | Partially copied verbatim | Repository MIT; copied subset is broad literature/arXiv search. |
 | <https://github.com/Weizhena/Deep-Research-skills> | Skills | Partially copied verbatim | Repository MIT; copied subset is English Codex research workflows. |
 | <https://github.com/huggingface/skills> | Skills | Partially copied verbatim | Repository Apache-2.0; copied subset is ML research workflows. |
+| <https://github.com/xingyang-yu/cyber-witten> | RAG codebase | Copied verbatim | Repository MIT; copied to `rag/third-party/cyber-witten/` as code only, with no generated corpus data or paper artifacts. |
 | <https://github.com/InternScience/Awesome-Scientific-Skills> | Index | Linked only | MIT; used as a discovery source, with no skill files copied. |
 | <https://github.com/K-Dense-AI/claude-scientific-skills> | Skill bundle | Linked only | MIT; overlaps with newer K-Dense source already triaged and copied. |
 | <https://github.com/K-Dense-AI/claude-scientific-writer> | Skills | Linked only | MIT; overlaps with existing writing and citation imports. |

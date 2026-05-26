@@ -7,6 +7,8 @@ keeping provenance, quality, and reproducibility clear.
 
 - Skills useful for physics, scientific computing, literature review, data
   analysis, simulations, figures, and research writing.
+- RAG systems and reference implementations for grounded scientific
+  question-answering or literature-aware research tools.
 - Agent definitions with clear inputs, outputs, and tool assumptions.
 - Harnesses that make behavior testable.
 - Workflows that can be reused across projects.

@@ -77,6 +77,9 @@ installation instructions.
 
 ## Third-Party Material
 
+First-party AI-for-Physics material is licensed under the Apache License 2.0;
+see [`LICENSE`](LICENSE).
+
 Copied and linked external sources are documented in
 [`ATTRIBUTIONS.md`](ATTRIBUTIONS.md), [`THIRD_PARTY.md`](THIRD_PARTY.md), and
 [`NOTICE.md`](NOTICE.md). Third-party material remains under its original

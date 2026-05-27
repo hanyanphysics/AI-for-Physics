@@ -20,6 +20,12 @@ copied or adapted material, document the source in `THIRD_PARTY.md` and update
 When the license is unclear, link to the upstream project instead of copying its
 contents.
 
+## Contribution License
+
+Unless explicitly documented otherwise, contributions to first-party
+AI-for-Physics material are submitted under the Apache License 2.0. Copied
+third-party material remains under its upstream license.
+
 ## Review Checklist
 
 - The purpose is clear to a new reader.

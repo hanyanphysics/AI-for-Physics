@@ -1,5 +1,9 @@
 # Notices
 
+First-party AI-for-Physics material is licensed under the Apache License 2.0.
+Third-party material remains under the original licenses and notices recorded
+below and in nearby copied license files.
+
 This repository includes or references third-party material. Required or useful
 notices are recorded below.
 

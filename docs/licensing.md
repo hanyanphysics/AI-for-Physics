@@ -3,6 +3,15 @@
 This repository may contain both first-party material and third-party material.
 Respecting upstream copyright is part of the curation process.
 
+## First-Party License
+
+Unless otherwise noted, original AI-for-Physics material is licensed under the
+Apache License 2.0. See [`../LICENSE`](../LICENSE).
+
+This top-level license does not relicense copied third-party material. Files
+under `skills/third-party/`, `rag/third-party/`, and any other clearly marked
+third-party location remain under their upstream licenses and notices.
+
 ## Rules For Third-Party Skills
 
 Before copying a skill into this repository:

@@ -6,7 +6,7 @@ and notes that can make scientific work more effective.
 
 > [!NOTE]
 > This repo is still young and evolving. Suggestions, issues, and contributions
-> are very welcome.
+> are very welcome and highly appreciated!
 
 ## Repository Map
 
